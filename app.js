@@ -6,9 +6,8 @@ let licence = {
         '26.11.2020',
         '26.11.2030',
     ],
-    number: '1000-50000',
     category: 'B, C',
-    photo: 'img/photo.jpg'
+    photo: 'img/photo.png'
 }
 
 let btnLoad = document.getElementById('btnLoad')
@@ -34,8 +33,7 @@ btnLoad.onclick = function(){
     }
     wrkStr += `<br>`
 
-    wrkStr += `4. ${licence.number}<br>`
-    wrkStr += `5. ${licence.category}<br>`
+    wrkStr += `4. ${licence.category}<br>`
     wrkStr += `</div>`
      
     rowCard.innerHTML = wrkStr
