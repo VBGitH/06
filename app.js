@@ -8,7 +8,7 @@ let licence = {
     ],
     number: '1000-50000',
     category: 'B, C',
-    photo: 'photo.jpg'
+    photo: 'img/photo.jpg'
 }
 
 let btnLoad = document.getElementById('btnLoad')
