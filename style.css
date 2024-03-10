@@ -25,19 +25,18 @@ div{
 }
 
 .midcard{
-    width: 200px;
+    width: 105px;
+    padding: 5px;
     flex-direction: column;
     justify-content: center;
     background-image: url("back1.jpg");        
 }
 
 .rowcard{
-    flex-direction: row;    
+    flex-direction: column;    
 }
 
 .photo{
-    margin: 0 auto;
-    display: block;
     width: 150px;
     height: 150px;
 }
@@ -47,4 +46,7 @@ div{
     display: block;
     width: 80px;
     height: 20px;
+}
+.lbl{
+    font-weight: 800;    
 }
